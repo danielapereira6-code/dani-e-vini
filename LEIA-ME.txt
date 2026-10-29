@@ -1,0 +1,24 @@
+ÁLBUM VIRTUAL — DANI & VINI ♡
+
+O que vem aqui:
+- index.html: álbum em português, responsivo para celular, contador em tempo real e botão da música.
+- O botão abre “Uma Criança Com Seu Olhar”, de Charlie Brown Jr., no YouTube oficial.
+
+IMPORTANTE:
+1. Este arquivo funciona de graça ao abrir index.html no navegador.
+2. Para o Vini abrir por um link, o arquivo precisa ser publicado em uma hospedagem estática gratuita.
+3. As fotos incluídas são imagens ilustrativas de exemplo. Para usar fotos de vocês, substitua as URLs das imagens no arquivo index.html por links públicos das fotos, ou edite o site com um serviço que permita enviar imagens.
+4. O contador usa 1º de março de 2026 à meia-noite como início do namoro.
+5. O site não reproduz áudio automaticamente; o botão abre a música no YouTube, respeitando as regras de reprodução e direitos autorais.
+
+Para publicar gratuitamente:
+- Crie uma conta em um serviço de hospedagem estática gratuito que aceite arquivos HTML (por exemplo, GitHub Pages).
+- Envie o index.html e siga as instruções do serviço para publicar.
+- Depois, compartilhe o endereço gerado com o Vini.
+
+Você pode editar os textos, nomes, datas e links abrindo index.html em um editor de texto.
+
+A foto enviada pela Dani foi adicionada à capa como foto_capa.jpg. Mantenha esse arquivo na mesma pasta que index.html para a capa aparecer.
+
+FOTOS PERSONALIZADAS:
+As fotos enviadas pela Dani foram incluídas como foto1.jpg até foto8.jpg. Mantenha esses arquivos na mesma pasta que index.html ao publicar o site.
