@@ -41,8 +41,17 @@ h1{font-size:clamp(3rem,7vw,5.7rem);line-height:.96;color:var(--wine);margin:0 0
 <div class="album-art" aria-hidden="true">♫</div>
 <div style="flex:1;min-width:0">
 <h3>Uma Criança Com Seu Olhar</h3><p>Charlie Brown Jr. · A nossa música</p>
-<button class="btn" id="musicBtn" type="button">▶ Ouvir nossa música</button>
-<p class="small" id="musicStatus" style="margin-top:8px">O botão abre a música oficial no YouTube.</p>
+<iframe
+  width="100%"
+  height="180"
+  src="https://www.youtube-nocookie.com/embed/A6nZXK5QBdE?playsinline=1"
+  title="Nossa música — Charlie Brown Jr."
+  style="border:0;border-radius:14px;margin-top:12px;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+<p class="small" style="margin-top:8px">♡ Dê o play para ouvir nossa música aqui.</p>
 </div>
 </div>
 </div>
@@ -103,31 +112,7 @@ Com carinho,
 Dani ♡</div>
 <p class="hint">Esse álbum é nosso cantinho. Cada vez mais vou aumentar ele com nossas fotos e memorias.</p>
 </section>
-  <div style="max-width:320px;margin:20px auto;text-align:center;">
-
-  <p style="color:#8e2949;">♡ Nossa música ♡</p>
-
-  <iframe
-
-    width="100%"
-
-    height="180"
-
-    src="https://www.youtube-nocookie.com/embed/A6nZXK5QBdE?playsinline=1"
-
-    title="Nossa música"
-
-    style="border:0;border-radius:14px;"
-
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-
-    referrerpolicy="strict-origin-when-cross-origin"
-
-    allowfullscreen>
-
-  </iframe>
-
-</div>
+  
 </main>
 <footer class="footer">“Que a gente continue escolhendo viver novas memórias.”<br><span style="font-size:1.8rem">♡ Dani & Vini ♡</span></footer>
 </div>
@@ -145,9 +130,7 @@ function updateCounter(){
   document.getElementById('seconds').textContent = String(second).padStart(2,'0');
 }
 updateCounter(); setInterval(updateCounter,1000);
-document.getElementById('musicBtn').addEventListener('click',()=>{
-  window.open('https://www.youtube.com/watch?v=A6nZXK5QBdE','_blank','noopener,noreferrer');
-});
+
 </script>
 </body>
 </html>
